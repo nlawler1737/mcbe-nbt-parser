@@ -1,0 +1,32 @@
+{
+  "name": "@nullun_/nbt-parser",
+  "version": "0.0.1",
+  "description": "Parse NBT file formats",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlawler1737/nbt-parser.git"
+  },
+  "keywords": [
+    "nbt",
+    "level.dat",
+    "minecraft",
+    "bedrock"
+  ],
+  "author": "nullun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nlawler1737/nbt-parser/issues"
+  },
+  "homepage": "https://github.com/nlawler1737/nbt-parser#readme",
+  "devDependencies": {
+    "tsup": "^8.2.4",
+    "typescript": "^5.6.2"
+  }
+}
